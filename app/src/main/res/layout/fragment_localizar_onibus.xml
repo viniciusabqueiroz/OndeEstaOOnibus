@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thais.busao.fragments.LocalizarOnibusFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtLocalizarOnibus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/localizar_onibus"
+            android:textColor="#595959"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnLocalizarOnibus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:textColor="#FDFDFD"
+            android:textSize="22sp"
+            android:text="@string/localizar_onibus"/>
+
+        <TextView
+            android:id="@+id/txtExibirOnibus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#595959"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnExibirLocalizacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:textColor="#FDFDFD"
+            android:textSize="22sp"
+            android:text="@string/exibir_localizacao"/>
+
+    </LinearLayout>
+
+</LinearLayout>

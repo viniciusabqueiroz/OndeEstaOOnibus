@@ -4,6 +4,8 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_sair">Sair</string>
     <string name="title_activity_maps">Map</string>
+    <string name="localizar_onibus">Localizar Onibus</string>
+    <string name="exibir_localizacao">Exibir Localização</string>
 </resources>
